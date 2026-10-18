@@ -1,0 +1,4 @@
+.env
+dev/out/
+runs/
+__pycache__/

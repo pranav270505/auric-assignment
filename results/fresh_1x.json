@@ -1,0 +1,1545 @@
+{
+ "F3-000": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Diego": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "07:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-001": {
+  "case": "unique",
+  "assignment": {
+   "Mateo": {
+    "block": "11:00"
+   },
+   "Ivo": {
+    "block": "15:00",
+    "station": "intake"
+   },
+   "Farah": {
+    "block": "07:00",
+    "station": "packing"
+   },
+   "Rhea": {
+    "block": "13:00",
+    "station": "calibration"
+   },
+   "Wen": {
+    "block": "09:00"
+   }
+  }
+ },
+ "F3-002": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Diego falls somewhere between Farah and Oskar, in whichever order.",
+   "From what I recall, with Farah on one side and Tara on the other, Oskar is somewhere in the middle.",
+   "With Diego on one side and Tara on the other, Farah is somewhere in the middle."
+  ]
+ },
+ "F3-003": {
+  "case": "inconsistent",
+  "conflicts": [
+   "From what I recall, Hana arrives later than Diego.",
+   "I'm reasonably confident Arjun has been rostered for 11:00.",
+   "I believe the packing person's shift is ahead of Tara's.",
+   "Diego falls somewhere between Sven and Tara, in whichever order.",
+   "With Hana on one side and Tara on the other, Sven is somewhere in the middle."
+  ]
+ },
+ "F3-004": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Chloe": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Kofi": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Chloe": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "15:00"
+    }
+   }
+  ]
+ },
+ "F3-005": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Ivo's shift is ahead of Farah's.",
+   "Flagged twice at handover: Farah arrives later than Ivo."
+  ]
+ },
+ "F3-006": {
+  "case": "unique",
+  "assignment": {
+   "Farah": {
+    "block": "13:00"
+   },
+   "Hana": {
+    "block": "11:00",
+    "station": "packing"
+   },
+   "Tara": {
+    "block": "09:00",
+    "station": "intake"
+   },
+   "Wen": {
+    "block": "07:00"
+   },
+   "Rhea": {
+    "block": "15:00",
+    "station": "calibration"
+   }
+  }
+ },
+ "F3-007": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "09:00"
+    },
+    "Chloe": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Diego": {
+     "block": "07:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "09:00"
+    },
+    "Chloe": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Diego": {
+     "block": "07:00"
+    }
+   }
+  ]
+ },
+ "F3-008": {
+  "case": "inconsistent",
+  "conflicts": [
+   "I'm reasonably confident Hana falls somewhere between Kofi and Noor, in whichever order.",
+   "Unless I have this wrong, with Hana on one side and Noor on the other, Wen is somewhere in the middle.",
+   "Wen and Kofi are consecutive, with Wen first."
+  ]
+ },
+ "F3-009": {
+  "case": "inconsistent",
+  "conflicts": [
+   "The person stationed at packing clocks in before Farah does.",
+   "Said again for clarity: Oskar is stationed at intake.",
+   "The calibration lead clocks in before Farah does."
+  ]
+ },
+ "F3-010": {
+  "case": "inconsistent",
+  "conflicts": [
+   "If memory serves, calibration goes to anyone but Kofi.",
+   "If memory serves, Hana's shift is ahead of Tara's.",
+   "Unless I have this wrong, the calibration person's shift is ahead of Tara's.",
+   "Said again for clarity: With Kofi on one side and Lena on the other, Tara is somewhere in the middle.",
+   "I believe Lena and Wen are consecutive, with Lena first.",
+   "Leave Lena off the 07:00 shift."
+  ]
+ },
+ "F3-011": {
+  "case": "inconsistent",
+  "conflicts": [
+   "If memory serves, packing is in Lena's hands.",
+   "Unless I have this wrong, Chloe staffs calibration.",
+   "The intake lead's shift is ahead of Elif's."
+  ]
+ },
+ "F3-012": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Elif": {
+     "block": "13:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "11:00"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Elif": {
+     "block": "13:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Farah": {
+     "block": "11:00"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-013": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Diego": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Oskar": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "07:00"
+    }
+   },
+   {
+    "Noor": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Diego": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "07:00"
+    }
+   }
+  ]
+ },
+ "F3-014": {
+  "case": "unique",
+  "assignment": {
+   "Mateo": {
+    "block": "15:00",
+    "station": "calibration"
+   },
+   "Diego": {
+    "block": "09:00",
+    "station": "intake"
+   },
+   "Lena": {
+    "block": "13:00",
+    "station": "packing"
+   },
+   "Farah": {
+    "block": "11:00"
+   },
+   "Sven": {
+    "block": "07:00"
+   }
+  }
+ },
+ "F3-015": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "07:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Tara": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Noor": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "07:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Tara": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Noor": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "07:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Tara": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Noor": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "07:00"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Tara": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Noor": {
+     "block": "13:00"
+    }
+   }
+  ]
+ },
+ "F3-016": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Unless I have this wrong, the 11:00 shift is staffed by Arjun.",
+   "Ivo arrives later than Arjun.",
+   "Ivo's shift is ahead of Elif's.",
+   "From what I recall, Elif is sandwiched between Farah and Oskar, not necessarily touching either."
+  ]
+ },
+ "F3-017": {
+  "case": "unique",
+  "assignment": {
+   "Mateo": {
+    "block": "09:00"
+   },
+   "Lena": {
+    "block": "11:00",
+    "station": "packing"
+   },
+   "Oskar": {
+    "block": "13:00",
+    "station": "calibration"
+   },
+   "Elif": {
+    "block": "07:00",
+    "station": "intake"
+   },
+   "Chloe": {
+    "block": "15:00"
+   }
+  }
+ },
+ "F3-018": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "11:00"
+    },
+    "Noor": {
+     "block": "13:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "11:00"
+    },
+    "Noor": {
+     "block": "13:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "11:00",
+     "station": "packing"
+    }
+   }
+  ]
+ },
+ "F3-019": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "13:00"
+    },
+    "Lena": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Noor": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "13:00"
+    },
+    "Lena": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Noor": {
+     "block": "15:00"
+    }
+   }
+  ]
+ },
+ "F3-020": {
+  "case": "unique",
+  "assignment": {
+   "Diego": {
+    "block": "13:00",
+    "station": "calibration"
+   },
+   "Lena": {
+    "block": "09:00",
+    "station": "intake"
+   },
+   "Oskar": {
+    "block": "15:00"
+   },
+   "Farah": {
+    "block": "11:00"
+   },
+   "Wen": {
+    "block": "07:00",
+    "station": "packing"
+   }
+  }
+ },
+ "F3-021": {
+  "case": "inconsistent",
+  "conflicts": [
+   "If memory serves, Arjun and Ivo are consecutive, with Arjun first.",
+   "Ivo falls somewhere between Arjun and Lena, in whichever order."
+  ]
+ },
+ "F3-022": {
+  "case": "unique",
+  "assignment": {
+   "Tara": {
+    "block": "11:00",
+    "station": "calibration"
+   },
+   "Hana": {
+    "block": "09:00",
+    "station": "packing"
+   },
+   "Arjun": {
+    "block": "07:00"
+   },
+   "Noor": {
+    "block": "15:00"
+   },
+   "Sven": {
+    "block": "13:00",
+    "station": "intake"
+   }
+  }
+ },
+ "F3-023": {
+  "case": "unique",
+  "assignment": {
+   "Sven": {
+    "block": "13:00"
+   },
+   "Arjun": {
+    "block": "09:00",
+    "station": "calibration"
+   },
+   "Farah": {
+    "block": "07:00"
+   },
+   "Rhea": {
+    "block": "11:00",
+    "station": "packing"
+   },
+   "Hana": {
+    "block": "15:00",
+    "station": "intake"
+   }
+  }
+ },
+ "F3-024": {
+  "case": "unique",
+  "assignment": {
+   "Tara": {
+    "block": "09:00",
+    "station": "intake"
+   },
+   "Elif": {
+    "block": "07:00"
+   },
+   "Noor": {
+    "block": "15:00"
+   },
+   "Wen": {
+    "block": "11:00",
+    "station": "calibration"
+   },
+   "Ivo": {
+    "block": "13:00",
+    "station": "packing"
+   }
+  }
+ },
+ "F3-025": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Tara": {
+     "block": "13:00"
+    },
+    "Arjun": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Lena": {
+     "block": "11:00"
+    }
+   },
+   {
+    "Tara": {
+     "block": "13:00"
+    },
+    "Arjun": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "11:00"
+    }
+   }
+  ]
+ },
+ "F3-026": {
+  "case": "unique",
+  "assignment": {
+   "Arjun": {
+    "block": "09:00",
+    "station": "calibration"
+   },
+   "Tara": {
+    "block": "15:00",
+    "station": "packing"
+   },
+   "Kofi": {
+    "block": "13:00"
+   },
+   "Oskar": {
+    "block": "07:00",
+    "station": "intake"
+   },
+   "Diego": {
+    "block": "11:00"
+   }
+  }
+ },
+ "F3-027": {
+  "case": "inconsistent",
+  "conflicts": [
+   "I believe whoever staffs calibration clocks in before Oskar does.",
+   "I believe Oskar has been rostered for 09:00.",
+   "I believe Oskar arrives later than the person stationed at intake."
+  ]
+ },
+ "F3-028": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Mateo": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Farah": {
+     "block": "09:00"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Tara": {
+     "block": "11:00"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Mateo": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "09:00"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Tara": {
+     "block": "11:00"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "intake"
+    }
+   }
+  ]
+ },
+ "F3-029": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "11:00"
+    },
+    "Hana": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "09:00"
+    },
+    "Sven": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Lena": {
+     "block": "11:00"
+    },
+    "Hana": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "09:00"
+    },
+    "Sven": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-030": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Said again for clarity: With Chloe on one side and Elif on the other, Sven is somewhere in the middle.",
+   "From what I recall, with Arjun on one side and Chloe on the other, Elif is somewhere in the middle.",
+   "Unless I have this wrong, Chloe is sandwiched between Arjun and Sven, not necessarily touching either."
+  ]
+ },
+ "F3-031": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "07:00"
+    }
+   },
+   {
+    "Lena": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "07:00"
+    }
+   }
+  ]
+ },
+ "F3-032": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Hana has been rostered for 13:00.",
+   "I believe Rhea is sandwiched between Hana and Oskar, not necessarily touching either.",
+   "From what I recall, Oskar works the 15:00 shift."
+  ]
+ },
+ "F3-033": {
+  "case": "inconsistent",
+  "conflicts": [
+   "From what I recall, Oskar is sandwiched between Ivo and Sven, not necessarily touching either.",
+   "From what I recall, Ivo is sandwiched between Hana and Oskar, not necessarily touching either.",
+   "Hana falls somewhere between Oskar and Sven, in whichever order."
+  ]
+ },
+ "F3-034": {
+  "case": "unique",
+  "assignment": {
+   "Ivo": {
+    "block": "11:00",
+    "station": "intake"
+   },
+   "Diego": {
+    "block": "13:00",
+    "station": "calibration"
+   },
+   "Kofi": {
+    "block": "15:00"
+   },
+   "Noor": {
+    "block": "09:00",
+    "station": "packing"
+   },
+   "Tara": {
+    "block": "07:00"
+   }
+  }
+ },
+ "F3-035": {
+  "case": "unique",
+  "assignment": {
+   "Wen": {
+    "block": "09:00"
+   },
+   "Lena": {
+    "block": "13:00",
+    "station": "packing"
+   },
+   "Kofi": {
+    "block": "07:00",
+    "station": "calibration"
+   },
+   "Noor": {
+    "block": "15:00",
+    "station": "intake"
+   },
+   "Oskar": {
+    "block": "11:00"
+   }
+  }
+ },
+ "F3-036": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Tara": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Noor": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "07:00"
+    }
+   },
+   {
+    "Tara": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Noor": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "07:00"
+    }
+   }
+  ]
+ },
+ "F3-037": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "13:00"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "09:00"
+    },
+    "Arjun": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "13:00"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "09:00"
+    },
+    "Arjun": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   }
+  ]
+ },
+ "F3-038": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Wen falls somewhere between Hana and Lena, in whichever order.",
+   "Hana is sandwiched between Oskar and Wen, not necessarily touching either.",
+   "With Lena on one side and Oskar on the other, Wen is somewhere in the middle."
+  ]
+ },
+ "F3-039": {
+  "case": "unique",
+  "assignment": {
+   "Chloe": {
+    "block": "13:00",
+    "station": "intake"
+   },
+   "Sven": {
+    "block": "15:00"
+   },
+   "Elif": {
+    "block": "11:00",
+    "station": "calibration"
+   },
+   "Ivo": {
+    "block": "07:00"
+   },
+   "Mateo": {
+    "block": "09:00",
+    "station": "packing"
+   }
+  }
+ },
+ "F3-040": {
+  "case": "unique",
+  "assignment": {
+   "Farah": {
+    "block": "09:00",
+    "station": "calibration"
+   },
+   "Arjun": {
+    "block": "07:00"
+   },
+   "Hana": {
+    "block": "13:00"
+   },
+   "Noor": {
+    "block": "11:00",
+    "station": "packing"
+   },
+   "Wen": {
+    "block": "15:00",
+    "station": "intake"
+   }
+  }
+ },
+ "F3-041": {
+  "case": "inconsistent",
+  "conflicts": [
+   "From what I recall, Wen falls somewhere between Ivo and Mateo, in whichever order.",
+   "From what I recall, Wen's shift is ahead of Sven's.",
+   "Wen works the 09:00 shift."
+  ]
+ },
+ "F3-042": {
+  "case": "unique",
+  "assignment": {
+   "Diego": {
+    "block": "11:00"
+   },
+   "Hana": {
+    "block": "09:00",
+    "station": "calibration"
+   },
+   "Lena": {
+    "block": "07:00"
+   },
+   "Rhea": {
+    "block": "15:00",
+    "station": "packing"
+   },
+   "Tara": {
+    "block": "13:00",
+    "station": "intake"
+   }
+  }
+ },
+ "F3-043": {
+  "case": "unique",
+  "assignment": {
+   "Elif": {
+    "block": "07:00"
+   },
+   "Arjun": {
+    "block": "15:00",
+    "station": "calibration"
+   },
+   "Farah": {
+    "block": "11:00",
+    "station": "intake"
+   },
+   "Tara": {
+    "block": "09:00",
+    "station": "packing"
+   },
+   "Wen": {
+    "block": "13:00"
+   }
+  }
+ },
+ "F3-044": {
+  "case": "inconsistent",
+  "conflicts": [
+   "From what I recall, straight after Arjun comes Diego.",
+   "Arjun falls somewhere between Elif and Ivo, in whichever order.",
+   "Ivo falls somewhere between Diego and Elif, in whichever order."
+  ]
+ },
+ "F3-045": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Hana arrives later than Chloe.",
+   "I'm reasonably confident Diego's shift is ahead of Hana's.",
+   "I believe with Chloe on one side and Hana on the other, Mateo is somewhere in the middle.",
+   "Chloe falls somewhere between Diego and Mateo, in whichever order."
+  ]
+ },
+ "F3-046": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Before the reshuffle, Rhea usually took 07:00.",
+   "Rhea is sandwiched between Hana and Tara, not necessarily touching either."
+  ]
+ },
+ "F3-047": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "07:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "13:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Noor": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Lena": {
+     "block": "07:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "11:00"
+    },
+    "Mateo": {
+     "block": "13:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Noor": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "07:00"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Mateo": {
+     "block": "09:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Noor": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Lena": {
+     "block": "07:00"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Mateo": {
+     "block": "09:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-048": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Tara falls somewhere between Diego and Ivo, in whichever order.",
+   "The 13:00 shift is staffed by Tara.",
+   "I'm reasonably confident the 15:00 shift is staffed by Arjun."
+  ]
+ },
+ "F3-049": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Rhea": {
+     "block": "09:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Rhea": {
+     "block": "09:00"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "packing"
+    }
+   }
+  ]
+ },
+ "F3-050": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Sven has been rostered for 09:00.",
+   "I believe the person stationed at intake clocks in before Farah does.",
+   "Rhea is sandwiched between Chloe and Sven, not necessarily touching either.",
+   "Rhea clocks in before Mateo does."
+  ]
+ },
+ "F3-051": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Lena": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Farah": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Lena": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Farah": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Lena": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Farah": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Lena": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "09:00"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Farah": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-052": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Sven": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "09:00"
+    },
+    "Oskar": {
+     "block": "11:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Sven": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "09:00"
+    },
+    "Oskar": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   }
+  ]
+ },
+ "F3-053": {
+  "case": "inconsistent",
+  "conflicts": [
+   "I believe Ivo takes over the moment Arjun finishes.",
+   "Arjun takes over the moment Chloe finishes.",
+   "Chloe is sandwiched between Arjun and Oskar, not necessarily touching either.",
+   "I'm reasonably confident Ivo falls somewhere between Arjun and Oskar, in whichever order."
+  ]
+ },
+ "F3-054": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Noor arrives later than the person stationed at calibration.",
+   "Unless I have this wrong, Chloe clocks in before Hana does.",
+   "Flagged twice at handover: I'm reasonably confident Chloe and Elif are consecutive, with Chloe first.",
+   "Elif arrives later than Noor.",
+   "Tara arrives later than whoever staffs intake."
+  ]
+ },
+ "F3-055": {
+  "case": "inconsistent",
+  "conflicts": [
+   "With Hana on one side and Rhea on the other, Lena is somewhere in the middle.",
+   "Unless I have this wrong, with Hana on one side and Noor on the other, Rhea is somewhere in the middle.",
+   "I'm reasonably confident Lena is sandwiched between Noor and Rhea, not necessarily touching either."
+  ]
+ },
+ "F3-056": {
+  "case": "inconsistent",
+  "conflicts": [
+   "I believe the person stationed at intake clocks in before Oskar does.",
+   "If memory serves, Diego's shift is ahead of Oskar's.",
+   "Lena falls somewhere between Diego and Oskar, in whichever order."
+  ]
+ },
+ "F3-057": {
+  "case": "inconsistent",
+  "conflicts": [
+   "Sven arrives later than the intake lead.",
+   "Unless I have this wrong, Kofi takes over the moment Sven finishes.",
+   "Unless I have this wrong, Kofi is sandwiched between Ivo and Sven, not necessarily touching either.",
+   "Ivo takes over the moment Diego finishes."
+  ]
+ },
+ "F3-058": {
+  "case": "inconsistent",
+  "conflicts": [
+   "07:00 is not an option for Elif.",
+   "I believe the 11:00 shift is staffed by Kofi.",
+   "Said again for clarity: Unless I have this wrong, Kofi arrives later than Elif.",
+   "I believe straight after Rhea comes Kofi."
+  ]
+ },
+ "F3-059": {
+  "case": "inconsistent",
+  "conflicts": [
+   "With Hana on one side and Oskar on the other, Wen is somewhere in the middle.",
+   "I believe Wen's shift is ahead of Rhea's.",
+   "Rhea arrives later than Hana.",
+   "From what I recall, the intake lead's shift is ahead of Diego's.",
+   "Unless I have this wrong, Hana is sandwiched between Diego and Rhea, not necessarily touching either."
+  ]
+ }
+}

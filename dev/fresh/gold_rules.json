@@ -1,0 +1,1859 @@
+{
+ "F3-000": {
+  "0": [
+   "before(@calibration, Rhea)"
+  ],
+  "3": [
+   "between(Rhea, Mateo, Noor)"
+  ],
+  "5": [
+   "between(Noor, Diego, Mateo)"
+  ],
+  "8": [
+   "between(Rhea, Diego, Mateo)"
+  ],
+  "9": [
+   "not_on(Diego, packing)"
+  ],
+  "11": [
+   "not_on(Diego, packing)"
+  ],
+  "12": [
+   "at(Lena, 07:00)"
+  ],
+  "14": [
+   "between(Diego, Lena, Noor)"
+  ],
+  "16": [
+   "before(@intake, Rhea)"
+  ]
+ },
+ "F3-001": {
+  "0": [
+   "before(Farah, Mateo)"
+  ],
+  "2": [
+   "not_on(Ivo, calibration)"
+  ],
+  "3": [
+   "between(Mateo, Rhea, Wen)"
+  ],
+  "4": [
+   "not_at(Rhea, 07:00)"
+  ],
+  "6": [
+   "not_at(Rhea, 09:00)"
+  ],
+  "8": [
+   "between(Mateo, Rhea, Wen)"
+  ],
+  "12": [
+   "before(@packing, Mateo)"
+  ],
+  "13": [
+   "between(Rhea, Ivo, Wen)"
+  ],
+  "14": [
+   "not_at(Rhea, 15:00)"
+  ],
+  "15": [
+   "between(Wen, Farah, Ivo)"
+  ]
+ },
+ "F3-002": {
+  "1": [
+   "between(Diego, Farah, Oskar)"
+  ],
+  "2": [
+   "between(Oskar, Farah, Tara)"
+  ],
+  "3": [
+   "right_before(Tara, Oskar)"
+  ],
+  "5": [
+   "not_on(Diego, intake)"
+  ],
+  "6": [
+   "between(Farah, Diego, Tara)"
+  ],
+  "8": [
+   "right_before(Tara, Oskar)"
+  ],
+  "9": [
+   "before(@intake, Oskar)"
+  ],
+  "11": [
+   "not_at(Rhea, 07:00)"
+  ],
+  "12": [
+   "between(Diego, Farah, Rhea)"
+  ],
+  "13": [
+   "not_on(Diego, calibration)"
+  ],
+  "17": [
+   "not_at(Oskar, 15:00)"
+  ]
+ },
+ "F3-003": {
+  "2": [
+   "before(Diego, Hana)"
+  ],
+  "3": [
+   "at(Arjun, 11:00)"
+  ],
+  "4": [
+   "before(@packing, Tara)"
+  ],
+  "5": [
+   "between(Arjun, Sven, Tara)"
+  ],
+  "7": [
+   "not_at(Sven, 11:00)"
+  ],
+  "8": [
+   "between(Diego, Sven, Tara)"
+  ],
+  "10": [
+   "not_on(Hana, intake)"
+  ],
+  "12": [
+   "not_at(Sven, 11:00)"
+  ],
+  "14": [
+   "between(Sven, Hana, Tara)"
+  ]
+ },
+ "F3-004": {
+  "1": [
+   "before(@packing, Kofi)"
+  ],
+  "2": [
+   "not_at(Kofi, 15:00)"
+  ],
+  "4": [
+   "between(Lena, Chloe, Kofi)"
+  ],
+  "7": [
+   "between(Lena, Sven, Tara)"
+  ],
+  "8": [
+   "before(@intake, Sven)"
+  ],
+  "15": [
+   "between(Tara, Chloe, Lena)"
+  ],
+  "17": [
+   "on(Chloe, packing)"
+  ],
+  "19": [
+   "before(@packing, Kofi)"
+  ],
+  "20": [
+   "between(Lena, Kofi, Tara)"
+  ]
+ },
+ "F3-005": {
+  "0": [
+   "before(Farah, Rhea)"
+  ],
+  "2": [
+   "between(Sven, Farah, Rhea)"
+  ],
+  "4": [
+   "before(Ivo, Farah)"
+  ],
+  "6": [
+   "right_before(Elif, Sven)"
+  ],
+  "10": [
+   "on(Rhea, packing)"
+  ],
+  "11": [
+   "before(Ivo, Farah)"
+  ],
+  "12": [
+   "not_at(Rhea, 09:00)"
+  ],
+  "13": [
+   "on(Farah, intake)"
+  ],
+  "17": [
+   "at(Farah, 09:00)"
+  ],
+  "18": [
+   "before(@packing, Farah)"
+  ],
+  "19": [
+   "before(@packing, Elif)"
+  ]
+ },
+ "F3-006": {
+  "2": [
+   "not_on(Tara, calibration)"
+  ],
+  "6": [
+   "before(@packing, Farah)"
+  ],
+  "8": [
+   "between(Hana, Rhea, Wen)"
+  ],
+  "12": [
+   "before(@packing, Farah)"
+  ],
+  "13": [
+   "between(Farah, Rhea, Tara)"
+  ],
+  "14": [
+   "between(Tara, Farah, Wen)"
+  ],
+  "15": [
+   "on(Hana, packing)"
+  ],
+  "17": [
+   "between(Tara, Rhea, Wen)"
+  ],
+  "20": [
+   "right_before(Tara, Hana)"
+  ]
+ },
+ "F3-007": {
+  "3": [
+   "not_on(Chloe, calibration)"
+  ],
+  "4": [
+   "right_before(Diego, Lena)"
+  ],
+  "6": [
+   "not_on(Wen, calibration)"
+  ],
+  "9": [
+   "right_before(Diego, Lena)"
+  ],
+  "10": [
+   "between(Lena, Diego, Wen)"
+  ],
+  "13": [
+   "not_at(Lena, 07:00)"
+  ],
+  "14": [
+   "between(Kofi, Chloe, Wen)"
+  ],
+  "15": [
+   "not_on(Kofi, packing)"
+  ],
+  "16": [
+   "between(Wen, Chloe, Diego)"
+  ]
+ },
+ "F3-008": {
+  "2": [
+   "before(@calibration, Noor)"
+  ],
+  "4": [
+   "between(Hana, Kofi, Noor)"
+  ],
+  "6": [
+   "between(Wen, Hana, Lena)"
+  ],
+  "8": [
+   "between(Wen, Hana, Noor)"
+  ],
+  "10": [
+   "before(@intake, Lena)"
+  ],
+  "11": [
+   "not_on(Wen, intake)"
+  ],
+  "13": [
+   "on(Hana, calibration)"
+  ],
+  "15": [
+   "right_before(Wen, Kofi)"
+  ],
+  "17": [
+   "on(Hana, calibration)"
+  ],
+  "18": [
+   "between(Noor, Hana, Lena)"
+  ]
+ },
+ "F3-009": {
+  "0": [
+   "before(@intake, Tara)"
+  ],
+  "2": [
+   "before(@packing, Farah)"
+  ],
+  "3": [
+   "at(Tara, 13:00)"
+  ],
+  "4": [
+   "between(Oskar, Mateo, Tara)"
+  ],
+  "5": [
+   "at(Farah, 11:00)"
+  ],
+  "6": [
+   "right_before(Tara, Wen)"
+  ],
+  "12": [
+   "on(Oskar, intake)"
+  ],
+  "14": [
+   "on(Oskar, intake)"
+  ],
+  "16": [
+   "between(Farah, Mateo, Wen)"
+  ],
+  "17": [
+   "before(@calibration, Farah)"
+  ],
+  "18": [
+   "before(@calibration, Tara)"
+  ]
+ },
+ "F3-010": {
+  "0": [
+   "not_on(Kofi, calibration)"
+  ],
+  "2": [
+   "before(Hana, Tara)"
+  ],
+  "4": [
+   "before(@calibration, Tara)"
+  ],
+  "7": [
+   "between(Kofi, Hana, Tara)"
+  ],
+  "10": [
+   "between(Tara, Kofi, Lena)"
+  ],
+  "12": [
+   "not_at(Hana, 09:00)"
+  ],
+  "13": [
+   "between(Tara, Kofi, Lena)"
+  ],
+  "15": [
+   "not_on(Lena, intake)"
+  ],
+  "16": [
+   "right_before(Lena, Wen)"
+  ],
+  "18": [
+   "not_at(Lena, 07:00)"
+  ]
+ },
+ "F3-011": {
+  "0": [
+   "on(Lena, packing)"
+  ],
+  "2": [
+   "on(Chloe, calibration)"
+  ],
+  "3": [
+   "before(@intake, Elif)"
+  ],
+  "4": [
+   "between(Kofi, Chloe, Elif)"
+  ],
+  "6": [
+   "at(Arjun, 09:00)"
+  ],
+  "7": [
+   "right_before(Chloe, Arjun)"
+  ],
+  "8": [
+   "on(Lena, packing)"
+  ],
+  "10": [
+   "not_on(Elif, calibration)"
+  ],
+  "15": [
+   "right_before(Arjun, Lena)"
+  ],
+  "16": [
+   "not_at(Elif, 07:00)"
+  ]
+ },
+ "F3-012": {
+  "2": [
+   "not_at(Chloe, 11:00)"
+  ],
+  "3": [
+   "at(Elif, 13:00)"
+  ],
+  "4": [
+   "between(Farah, Chloe, Ivo)"
+  ],
+  "7": [
+   "right_before(Noor, Chloe)"
+  ],
+  "8": [
+   "on(Ivo, packing)"
+  ],
+  "9": [
+   "not_at(Farah, 13:00)"
+  ],
+  "10": [
+   "not_at(Farah, 13:00)"
+  ],
+  "17": [
+   "before(@intake, Ivo)"
+  ]
+ },
+ "F3-013": {
+  "1": [
+   "not_on(Noor, calibration)"
+  ],
+  "3": [
+   "between(Noor, Diego, Rhea)"
+  ],
+  "4": [
+   "between(Mateo, Diego, Rhea)"
+  ],
+  "5": [
+   "between(Oskar, Diego, Rhea)"
+  ],
+  "7": [
+   "before(@packing, Mateo)"
+  ],
+  "9": [
+   "not_at(Noor, 15:00)"
+  ],
+  "12": [
+   "not_at(Noor, 15:00)"
+  ],
+  "14": [
+   "before(Rhea, Oskar)"
+  ],
+  "19": [
+   "between(Noor, Diego, Oskar)"
+  ]
+ },
+ "F3-014": {
+  "4": [
+   "between(Diego, Mateo, Sven)"
+  ],
+  "5": [
+   "between(Lena, Mateo, Sven)"
+  ],
+  "6": [
+   "right_before(Farah, Lena)"
+  ],
+  "7": [
+   "before(@intake, Mateo)"
+  ],
+  "9": [
+   "not_at(Sven, 15:00)"
+  ],
+  "11": [
+   "before(@intake, Lena)"
+  ],
+  "12": [
+   "between(Farah, Mateo, Sven)"
+  ],
+  "13": [
+   "between(Farah, Diego, Mateo)"
+  ],
+  "15": [
+   "on(Lena, packing)"
+  ],
+  "16": [
+   "before(@intake, Mateo)"
+  ]
+ },
+ "F3-015": {
+  "1": [
+   "before(@calibration, Mateo)"
+  ],
+  "2": [
+   "at(Arjun, 09:00)"
+  ],
+  "4": [
+   "between(Arjun, Lena, Tara)"
+  ],
+  "8": [
+   "between(Tara, Arjun, Mateo)"
+  ],
+  "11": [
+   "between(Noor, Mateo, Tara)"
+  ],
+  "15": [
+   "not_on(Mateo, calibration)"
+  ],
+  "17": [
+   "at(Arjun, 09:00)"
+  ]
+ },
+ "F3-016": {
+  "1": [
+   "before(@calibration, Oskar)"
+  ],
+  "2": [
+   "before(@calibration, Arjun)"
+  ],
+  "3": [
+   "at(Arjun, 11:00)"
+  ],
+  "4": [
+   "before(Arjun, Ivo)"
+  ],
+  "5": [
+   "right_before(Arjun, Ivo)"
+  ],
+  "7": [
+   "before(@intake, Oskar)"
+  ],
+  "10": [
+   "before(@calibration, Arjun)"
+  ],
+  "13": [
+   "before(Farah, Ivo)"
+  ],
+  "19": [
+   "before(Ivo, Elif)"
+  ],
+  "20": [
+   "between(Elif, Farah, Oskar)"
+  ]
+ },
+ "F3-017": {
+  "4": [
+   "before(@intake, Mateo)"
+  ],
+  "6": [
+   "at(Oskar, 13:00)"
+  ],
+  "7": [
+   "not_at(Chloe, 11:00)"
+  ],
+  "11": [
+   "between(Mateo, Elif, Oskar)"
+  ],
+  "12": [
+   "between(Lena, Chloe, Mateo)"
+  ],
+  "13": [
+   "not_on(Lena, calibration)"
+  ],
+  "14": [
+   "not_on(Elif, packing)"
+  ],
+  "15": [
+   "before(@packing, Oskar)"
+  ],
+  "18": [
+   "not_on(Lena, calibration)"
+  ],
+  "19": [
+   "before(@intake, Lena)"
+  ]
+ },
+ "F3-018": {
+  "0": [
+   "before(@calibration, Noor)"
+  ],
+  "4": [
+   "before(Oskar, Chloe)"
+  ],
+  "5": [
+   "between(Noor, Chloe, Hana)"
+  ],
+  "6": [
+   "right_before(Hana, Farah)"
+  ],
+  "9": [
+   "before(Farah, Oskar)"
+  ],
+  "10": [
+   "between(Farah, Hana, Oskar)"
+  ],
+  "11": [
+   "before(@calibration, Noor)"
+  ],
+  "16": [
+   "not_at(Noor, 15:00)"
+  ],
+  "17": [
+   "before(Farah, Noor)"
+  ]
+ },
+ "F3-019": {
+  "0": [
+   "between(Wen, Chloe, Noor)"
+  ],
+  "1": [
+   "before(@intake, Noor)"
+  ],
+  "2": [
+   "on(Lena, calibration)"
+  ],
+  "3": [
+   "at(Chloe, 09:00)"
+  ],
+  "5": [
+   "before(@calibration, Wen)"
+  ],
+  "8": [
+   "between(Lena, Kofi, Wen)"
+  ],
+  "12": [
+   "before(Lena, Noor)"
+  ],
+  "13": [
+   "before(Kofi, Chloe)"
+  ],
+  "15": [
+   "before(@intake, Noor)"
+  ]
+ },
+ "F3-020": {
+  "0": [
+   "on(Wen, packing)"
+  ],
+  "4": [
+   "right_before(Lena, Farah)"
+  ],
+  "6": [
+   "at(Farah, 11:00)"
+  ],
+  "8": [
+   "not_on(Diego, packing)"
+  ],
+  "9": [
+   "between(Lena, Oskar, Wen)"
+  ],
+  "12": [
+   "before(@calibration, Oskar)"
+  ],
+  "13": [
+   "at(Farah, 11:00)"
+  ],
+  "14": [
+   "not_on(Lena, calibration)"
+  ],
+  "15": [
+   "not_at(Diego, 15:00)"
+  ],
+  "19": [
+   "between(Diego, Oskar, Wen)"
+  ]
+ },
+ "F3-021": {
+  "3": [
+   "at(Hana, 07:00)"
+  ],
+  "6": [
+   "not_on(Lena, calibration)"
+  ],
+  "7": [
+   "right_before(Hana, Farah)"
+  ],
+  "9": [
+   "before(@packing, Ivo)"
+  ],
+  "12": [
+   "not_on(Farah, calibration)"
+  ],
+  "13": [
+   "right_before(Arjun, Ivo)"
+  ],
+  "14": [
+   "between(Ivo, Arjun, Lena)"
+  ],
+  "16": [
+   "at(Hana, 07:00)"
+  ],
+  "18": [
+   "between(Farah, Hana, Lena)"
+  ]
+ },
+ "F3-022": {
+  "2": [
+   "before(@packing, Tara)"
+  ],
+  "4": [
+   "between(Hana, Arjun, Sven)"
+  ],
+  "5": [
+   "not_on(Sven, calibration)"
+  ],
+  "11": [
+   "between(Sven, Arjun, Noor)"
+  ],
+  "14": [
+   "at(Arjun, 07:00)"
+  ],
+  "15": [
+   "at(Tara, 11:00)"
+  ],
+  "16": [
+   "between(Tara, Arjun, Noor)"
+  ],
+  "17": [
+   "not_at(Hana, 15:00)"
+  ],
+  "18": [
+   "not_at(Hana, 15:00)"
+  ],
+  "20": [
+   "between(Tara, Hana, Noor)"
+  ]
+ },
+ "F3-023": {
+  "0": [
+   "right_before(Sven, Hana)"
+  ],
+  "4": [
+   "right_before(Sven, Hana)"
+  ],
+  "8": [
+   "on(Rhea, packing)"
+  ],
+  "9": [
+   "before(@packing, Sven)"
+  ],
+  "12": [
+   "at(Rhea, 11:00)"
+  ],
+  "14": [
+   "before(@calibration, Hana)"
+  ],
+  "17": [
+   "between(Arjun, Farah, Rhea)"
+  ]
+ },
+ "F3-024": {
+  "0": [
+   "between(Tara, Elif, Wen)"
+  ],
+  "3": [
+   "not_on(Tara, calibration)"
+  ],
+  "4": [
+   "between(Tara, Elif, Ivo)"
+  ],
+  "5": [
+   "between(Wen, Elif, Ivo)"
+  ],
+  "6": [
+   "before(Elif, Tara)"
+  ],
+  "9": [
+   "not_on(Wen, packing)"
+  ],
+  "10": [
+   "not_at(Ivo, 15:00)"
+  ],
+  "13": [
+   "on(Ivo, packing)"
+  ],
+  "14": [
+   "on(Ivo, packing)"
+  ],
+  "16": [
+   "not_at(Tara, 13:00)"
+  ]
+ },
+ "F3-025": {
+  "1": [
+   "between(Lena, Hana, Rhea)"
+  ],
+  "2": [
+   "between(Rhea, Arjun, Lena)"
+  ],
+  "4": [
+   "not_on(Arjun, intake)"
+  ],
+  "5": [
+   "between(Lena, Hana, Rhea)"
+  ],
+  "8": [
+   "between(Lena, Arjun, Hana)"
+  ],
+  "9": [
+   "between(Rhea, Arjun, Tara)"
+  ],
+  "12": [
+   "between(Tara, Hana, Lena)"
+  ],
+  "13": [
+   "not_at(Hana, 13:00)"
+  ],
+  "14": [
+   "before(Arjun, Lena)"
+  ],
+  "16": [
+   "not_on(Arjun, calibration)"
+  ]
+ },
+ "F3-026": {
+  "0": [
+   "before(@calibration, Tara)"
+  ],
+  "1": [
+   "right_before(Arjun, Diego)"
+  ],
+  "2": [
+   "on(Oskar, intake)"
+  ],
+  "4": [
+   "between(Diego, Arjun, Tara)"
+  ],
+  "5": [
+   "not_at(Diego, 09:00)"
+  ],
+  "6": [
+   "before(@intake, Diego)"
+  ],
+  "9": [
+   "at(Tara, 15:00)"
+  ],
+  "10": [
+   "not_on(Arjun, packing)"
+  ],
+  "12": [
+   "between(Diego, Arjun, Tara)"
+  ],
+  "16": [
+   "between(Kofi, Arjun, Tara)"
+  ]
+ },
+ "F3-027": {
+  "1": [
+   "before(@calibration, Oskar)"
+  ],
+  "5": [
+   "between(Kofi, Diego, Noor)"
+  ],
+  "6": [
+   "right_before(Oskar, Diego)"
+  ],
+  "7": [
+   "between(Kofi, Arjun, Noor)"
+  ],
+  "11": [
+   "before(@intake, Kofi)"
+  ],
+  "13": [
+   "not_at(Arjun, 11:00)"
+  ],
+  "14": [
+   "before(@packing, Arjun)"
+  ],
+  "15": [
+   "at(Oskar, 09:00)"
+  ],
+  "16": [
+   "between(Kofi, Diego, Noor)"
+  ],
+  "17": [
+   "between(Diego, Arjun, Noor)"
+  ],
+  "18": [
+   "before(@intake, Oskar)"
+  ]
+ },
+ "F3-028": {
+  "0": [
+   "not_on(Mateo, calibration)"
+  ],
+  "5": [
+   "between(Tara, Hana, Mateo)"
+  ],
+  "6": [
+   "not_at(Sven, 11:00)"
+  ],
+  "8": [
+   "right_before(Hana, Farah)"
+  ],
+  "9": [
+   "between(Farah, Hana, Mateo)"
+  ],
+  "10": [
+   "between(Farah, Hana, Tara)"
+  ],
+  "12": [
+   "before(@calibration, Sven)"
+  ],
+  "13": [
+   "between(Mateo, Farah, Sven)"
+  ],
+  "14": [
+   "between(Tara, Hana, Mateo)"
+  ]
+ },
+ "F3-029": {
+  "0": [
+   "before(Arjun, Hana)"
+  ],
+  "1": [
+   "before(Lena, Ivo)"
+  ],
+  "3": [
+   "not_at(Lena, 13:00)"
+  ],
+  "4": [
+   "before(Lena, Arjun)"
+  ],
+  "7": [
+   "before(@packing, Ivo)"
+  ],
+  "8": [
+   "between(Arjun, Hana, Sven)"
+  ],
+  "9": [
+   "between(Hana, Ivo, Lena)"
+  ],
+  "10": [
+   "not_at(Lena, 07:00)"
+  ],
+  "13": [
+   "not_on(Ivo, intake)"
+  ],
+  "16": [
+   "not_at(Lena, 13:00)"
+  ]
+ },
+ "F3-030": {
+  "0": [
+   "between(Sven, Chloe, Elif)"
+  ],
+  "1": [
+   "not_on(Sven, intake)"
+  ],
+  "2": [
+   "between(Arjun, Elif, Noor)"
+  ],
+  "3": [
+   "between(Elif, Arjun, Chloe)"
+  ],
+  "4": [
+   "not_on(Elif, intake)"
+  ],
+  "8": [
+   "between(Chloe, Arjun, Sven)"
+  ],
+  "12": [
+   "before(Sven, Arjun)"
+  ],
+  "13": [
+   "not_on(Sven, calibration)"
+  ],
+  "14": [
+   "between(Sven, Chloe, Elif)"
+  ]
+ },
+ "F3-031": {
+  "1": [
+   "before(@intake, Arjun)"
+  ],
+  "4": [
+   "right_before(Farah, Lena)"
+  ],
+  "5": [
+   "right_before(Farah, Lena)"
+  ],
+  "6": [
+   "between(Farah, Arjun, Lena)"
+  ],
+  "14": [
+   "at(Mateo, 09:00)"
+  ],
+  "16": [
+   "not_at(Lena, 11:00)"
+  ],
+  "19": [
+   "at(Farah, 13:00)"
+  ]
+ },
+ "F3-032": {
+  "0": [
+   "at(Hana, 13:00)"
+  ],
+  "1": [
+   "at(Tara, 07:00)"
+  ],
+  "2": [
+   "between(Hana, Oskar, Wen)"
+  ],
+  "3": [
+   "right_before(Rhea, Wen)"
+  ],
+  "5": [
+   "on(Oskar, calibration)"
+  ],
+  "6": [
+   "not_on(Wen, intake)"
+  ],
+  "7": [
+   "between(Rhea, Hana, Oskar)"
+  ],
+  "8": [
+   "on(Oskar, calibration)"
+  ],
+  "9": [
+   "at(Oskar, 15:00)"
+  ],
+  "13": [
+   "not_at(Wen, 09:00)"
+  ],
+  "14": [
+   "before(@intake, Oskar)"
+  ]
+ },
+ "F3-033": {
+  "0": [
+   "before(@calibration, Ivo)"
+  ],
+  "3": [
+   "between(Oskar, Ivo, Sven)"
+  ],
+  "5": [
+   "between(Ivo, Hana, Oskar)"
+  ],
+  "6": [
+   "at(Sven, 07:00)"
+  ],
+  "8": [
+   "on(Ivo, packing)"
+  ],
+  "10": [
+   "before(Hana, Ivo)"
+  ],
+  "12": [
+   "before(Ivo, Tara)"
+  ],
+  "14": [
+   "before(Hana, Ivo)"
+  ],
+  "17": [
+   "between(Hana, Oskar, Sven)"
+  ]
+ },
+ "F3-034": {
+  "2": [
+   "between(Noor, Ivo, Tara)"
+  ],
+  "5": [
+   "between(Ivo, Diego, Noor)"
+  ],
+  "6": [
+   "right_before(Diego, Kofi)"
+  ],
+  "7": [
+   "on(Diego, calibration)"
+  ],
+  "9": [
+   "before(@packing, Ivo)"
+  ],
+  "11": [
+   "between(Diego, Kofi, Tara)"
+  ],
+  "15": [
+   "before(@packing, Kofi)"
+  ],
+  "16": [
+   "before(@calibration, Kofi)"
+  ],
+  "17": [
+   "before(@calibration, Kofi)"
+  ],
+  "18": [
+   "not_at(Tara, 11:00)"
+  ]
+ },
+ "F3-035": {
+  "0": [
+   "between(Oskar, Kofi, Lena)"
+  ],
+  "1": [
+   "between(Lena, Noor, Oskar)"
+  ],
+  "2": [
+   "at(Kofi, 07:00)"
+  ],
+  "8": [
+   "not_on(Lena, intake)"
+  ],
+  "9": [
+   "between(Wen, Kofi, Oskar)"
+  ],
+  "10": [
+   "not_at(Kofi, 13:00)"
+  ],
+  "11": [
+   "before(@calibration, Wen)"
+  ],
+  "13": [
+   "on(Noor, intake)"
+  ],
+  "14": [
+   "not_at(Kofi, 13:00)"
+  ],
+  "16": [
+   "right_before(Lena, Noor)"
+  ]
+ },
+ "F3-036": {
+  "0": [
+   "between(Tara, Chloe, Noor)"
+  ],
+  "1": [
+   "between(Farah, Chloe, Wen)"
+  ],
+  "2": [
+   "not_at(Farah, 15:00)"
+  ],
+  "4": [
+   "before(@packing, Wen)"
+  ],
+  "5": [
+   "between(Wen, Farah, Noor)"
+  ],
+  "7": [
+   "between(Tara, Chloe, Wen)"
+  ],
+  "13": [
+   "right_before(Farah, Tara)"
+  ],
+  "15": [
+   "before(@calibration, Wen)"
+  ],
+  "17": [
+   "not_at(Farah, 15:00)"
+  ],
+  "20": [
+   "between(Tara, Farah, Wen)"
+  ]
+ },
+ "F3-037": {
+  "3": [
+   "not_on(Arjun, intake)"
+  ],
+  "4": [
+   "not_on(Arjun, intake)"
+  ],
+  "5": [
+   "between(Arjun, Chloe, Farah)"
+  ],
+  "6": [
+   "not_at(Sven, 09:00)"
+  ],
+  "7": [
+   "between(Arjun, Farah, Sven)"
+  ],
+  "8": [
+   "before(@intake, Chloe)"
+  ],
+  "9": [
+   "not_at(Chloe, 09:00)"
+  ],
+  "10": [
+   "between(Farah, Chloe, Hana)"
+  ],
+  "11": [
+   "between(Chloe, Farah, Sven)"
+  ],
+  "13": [
+   "between(Chloe, Arjun, Sven)"
+  ]
+ },
+ "F3-038": {
+  "2": [
+   "not_on(Wen, calibration)"
+  ],
+  "3": [
+   "between(Diego, Hana, Wen)"
+  ],
+  "6": [
+   "before(@intake, Lena)"
+  ],
+  "7": [
+   "between(Wen, Hana, Lena)"
+  ],
+  "9": [
+   "between(Hana, Oskar, Wen)"
+  ],
+  "12": [
+   "before(Hana, Lena)"
+  ],
+  "13": [
+   "before(Oskar, Lena)"
+  ],
+  "14": [
+   "not_on(Wen, packing)"
+  ],
+  "16": [
+   "not_on(Wen, calibration)"
+  ],
+  "19": [
+   "between(Wen, Lena, Oskar)"
+  ]
+ },
+ "F3-039": {
+  "0": [
+   "before(@packing, Elif)"
+  ],
+  "2": [
+   "between(Elif, Mateo, Sven)"
+  ],
+  "3": [
+   "not_at(Elif, 13:00)"
+  ],
+  "4": [
+   "right_before(Elif, Chloe)"
+  ],
+  "5": [
+   "right_before(Elif, Chloe)"
+  ],
+  "9": [
+   "on(Chloe, intake)"
+  ],
+  "11": [
+   "right_before(Ivo, Mateo)"
+  ],
+  "13": [
+   "at(Sven, 15:00)"
+  ],
+  "16": [
+   "between(Mateo, Ivo, Sven)"
+  ],
+  "17": [
+   "at(Elif, 11:00)"
+  ]
+ },
+ "F3-040": {
+  "1": [
+   "before(@calibration, Noor)"
+  ],
+  "3": [
+   "between(Farah, Arjun, Noor)"
+  ],
+  "4": [
+   "not_on(Farah, packing)"
+  ],
+  "5": [
+   "not_at(Hana, 09:00)"
+  ],
+  "9": [
+   "not_on(Farah, packing)"
+  ],
+  "11": [
+   "between(Hana, Farah, Wen)"
+  ],
+  "12": [
+   "between(Farah, Arjun, Wen)"
+  ],
+  "14": [
+   "between(Noor, Farah, Hana)"
+  ],
+  "15": [
+   "on(Wen, intake)"
+  ],
+  "16": [
+   "at(Noor, 11:00)"
+  ]
+ },
+ "F3-041": {
+  "1": [
+   "at(Mateo, 11:00)"
+  ],
+  "3": [
+   "not_on(Sven, packing)"
+  ],
+  "5": [
+   "between(Wen, Ivo, Mateo)"
+  ],
+  "6": [
+   "before(Wen, Sven)"
+  ],
+  "7": [
+   "not_on(Sven, packing)"
+  ],
+  "10": [
+   "not_on(Wen, intake)"
+  ],
+  "11": [
+   "between(Wen, Ivo, Oskar)"
+  ],
+  "15": [
+   "between(Sven, Oskar, Wen)"
+  ],
+  "17": [
+   "between(Sven, Mateo, Oskar)"
+  ],
+  "18": [
+   "at(Wen, 09:00)"
+  ]
+ },
+ "F3-042": {
+  "6": [
+   "right_before(Lena, Hana)"
+  ],
+  "7": [
+   "right_before(Hana, Diego)"
+  ],
+  "10": [
+   "not_on(Rhea, intake)"
+  ],
+  "13": [
+   "before(Tara, Rhea)"
+  ],
+  "14": [
+   "before(@calibration, Diego)"
+  ],
+  "16": [
+   "not_on(Hana, intake)"
+  ],
+  "17": [
+   "between(Diego, Lena, Tara)"
+  ],
+  "18": [
+   "not_at(Rhea, 13:00)"
+  ],
+  "19": [
+   "between(Diego, Lena, Tara)"
+  ],
+  "20": [
+   "before(Lena, Rhea)"
+  ]
+ },
+ "F3-043": {
+  "2": [
+   "between(Farah, Tara, Wen)"
+  ],
+  "3": [
+   "between(Farah, Elif, Wen)"
+  ],
+  "4": [
+   "between(Wen, Arjun, Tara)"
+  ],
+  "5": [
+   "before(@intake, Wen)"
+  ],
+  "7": [
+   "not_at(Elif, 13:00)"
+  ],
+  "9": [
+   "between(Tara, Elif, Wen)"
+  ],
+  "12": [
+   "not_at(Wen, 09:00)"
+  ],
+  "16": [
+   "between(Farah, Tara, Wen)"
+  ],
+  "17": [
+   "on(Tara, packing)"
+  ]
+ },
+ "F3-044": {
+  "0": [
+   "not_on(Ivo, calibration)"
+  ],
+  "1": [
+   "right_before(Arjun, Diego)"
+  ],
+  "2": [
+   "before(Lena, Ivo)"
+  ],
+  "3": [
+   "on(Ivo, intake)"
+  ],
+  "4": [
+   "between(Arjun, Elif, Ivo)"
+  ],
+  "5": [
+   "between(Arjun, Elif, Ivo)"
+  ],
+  "6": [
+   "between(Arjun, Diego, Lena)"
+  ],
+  "8": [
+   "before(Arjun, Ivo)"
+  ],
+  "9": [
+   "between(Ivo, Diego, Elif)"
+  ],
+  "12": [
+   "not_on(Diego, calibration)"
+  ],
+  "18": [
+   "between(Elif, Diego, Lena)"
+  ]
+ },
+ "F3-045": {
+  "2": [
+   "between(Hana, Diego, Sven)"
+  ],
+  "3": [
+   "between(Hana, Diego, Sven)"
+  ],
+  "5": [
+   "not_on(Chloe, packing)"
+  ],
+  "8": [
+   "before(Chloe, Hana)"
+  ],
+  "10": [
+   "before(Diego, Hana)"
+  ],
+  "11": [
+   "before(@intake, Sven)"
+  ],
+  "12": [
+   "between(Mateo, Chloe, Hana)"
+  ],
+  "14": [
+   "between(Chloe, Diego, Mateo)"
+  ],
+  "15": [
+   "not_at(Diego, 13:00)"
+  ],
+  "16": [
+   "before(@calibration, Mateo)"
+  ]
+ },
+ "F3-046": {
+  "1": [
+   "between(Noor, Hana, Tara)"
+  ],
+  "2": [
+   "before(Tara, Mateo)"
+  ],
+  "3": [
+   "not_at(Mateo, 11:00)"
+  ],
+  "4": [
+   "before(Tara, Mateo)"
+  ],
+  "6": [
+   "between(Rhea, Hana, Tara)"
+  ],
+  "9": [
+   "between(Noor, Mateo, Rhea)"
+  ],
+  "10": [
+   "not_on(Mateo, intake)"
+  ],
+  "11": [
+   "between(Tara, Mateo, Noor)"
+  ],
+  "13": [
+   "between(Rhea, Noor, Tara)"
+  ],
+  "14": [
+   "before(@packing, Rhea)"
+  ]
+ },
+ "F3-047": {
+  "0": [
+   "not_on(Mateo, packing)"
+  ],
+  "1": [
+   "between(Mateo, Ivo, Lena)"
+  ],
+  "2": [
+   "not_at(Mateo, 15:00)"
+  ],
+  "7": [
+   "right_before(Mateo, Ivo)"
+  ],
+  "8": [
+   "between(Rhea, Mateo, Noor)"
+  ],
+  "9": [
+   "not_on(Noor, packing)"
+  ],
+  "10": [
+   "between(Rhea, Ivo, Noor)"
+  ],
+  "12": [
+   "between(Rhea, Ivo, Noor)"
+  ],
+  "15": [
+   "before(Mateo, Ivo)"
+  ],
+  "18": [
+   "at(Lena, 07:00)"
+  ]
+ },
+ "F3-048": {
+  "3": [
+   "before(@intake, Arjun)"
+  ],
+  "4": [
+   "between(Tara, Diego, Ivo)"
+  ],
+  "7": [
+   "not_on(Diego, calibration)"
+  ],
+  "9": [
+   "before(@packing, Tara)"
+  ],
+  "10": [
+   "at(Tara, 13:00)"
+  ],
+  "12": [
+   "between(Ivo, Arjun, Diego)"
+  ],
+  "13": [
+   "at(Arjun, 15:00)"
+  ],
+  "14": [
+   "between(Tara, Chloe, Ivo)"
+  ],
+  "16": [
+   "not_on(Diego, calibration)"
+  ],
+  "17": [
+   "between(Diego, Chloe, Tara)"
+  ],
+  "19": [
+   "not_at(Tara, 07:00)"
+  ]
+ },
+ "F3-049": {
+  "1": [
+   "not_at(Chloe, 15:00)"
+  ],
+  "2": [
+   "right_before(Chloe, Lena)"
+  ],
+  "4": [
+   "between(Chloe, Lena, Rhea)"
+  ],
+  "5": [
+   "before(@intake, Chloe)"
+  ],
+  "10": [
+   "between(Rhea, Chloe, Noor)"
+  ],
+  "12": [
+   "right_before(Chloe, Lena)"
+  ],
+  "14": [
+   "not_on(Ivo, intake)"
+  ],
+  "16": [
+   "before(Lena, Ivo)"
+  ]
+ },
+ "F3-050": {
+  "0": [
+   "before(Mateo, Chloe)"
+  ],
+  "1": [
+   "before(@calibration, Chloe)"
+  ],
+  "3": [
+   "at(Sven, 09:00)"
+  ],
+  "5": [
+   "not_on(Farah, packing)"
+  ],
+  "7": [
+   "before(@intake, Farah)"
+  ],
+  "9": [
+   "between(Rhea, Chloe, Sven)"
+  ],
+  "12": [
+   "before(Rhea, Mateo)"
+  ],
+  "13": [
+   "between(Farah, Chloe, Mateo)"
+  ],
+  "15": [
+   "before(@intake, Mateo)"
+  ],
+  "16": [
+   "right_before(Farah, Chloe)"
+  ],
+  "17": [
+   "not_on(Farah, packing)"
+  ]
+ },
+ "F3-051": {
+  "2": [
+   "not_at(Rhea, 11:00)"
+  ],
+  "4": [
+   "right_before(Farah, Rhea)"
+  ],
+  "5": [
+   "not_on(Farah, packing)"
+  ],
+  "6": [
+   "between(Hana, Lena, Wen)"
+  ],
+  "8": [
+   "between(Hana, Lena, Wen)"
+  ],
+  "9": [
+   "between(Farah, Lena, Wen)"
+  ],
+  "12": [
+   "before(@calibration, Rhea)"
+  ],
+  "14": [
+   "right_before(Hana, Farah)"
+  ],
+  "15": [
+   "between(Rhea, Lena, Wen)"
+  ],
+  "17": [
+   "on(Farah, calibration)"
+  ]
+ },
+ "F3-052": {
+  "1": [
+   "before(@intake, Sven)"
+  ],
+  "3": [
+   "before(@intake, Oskar)"
+  ],
+  "7": [
+   "between(Sven, Lena, Mateo)"
+  ],
+  "8": [
+   "between(Oskar, Lena, Sven)"
+  ],
+  "9": [
+   "between(Oskar, Lena, Sven)"
+  ],
+  "11": [
+   "at(Chloe, 09:00)"
+  ],
+  "15": [
+   "between(Chloe, Lena, Sven)"
+  ],
+  "17": [
+   "at(Mateo, 15:00)"
+  ]
+ },
+ "F3-053": {
+  "0": [
+   "right_before(Arjun, Ivo)"
+  ],
+  "1": [
+   "right_before(Chloe, Arjun)"
+  ],
+  "2": [
+   "between(Chloe, Arjun, Oskar)"
+  ],
+  "4": [
+   "between(Ivo, Arjun, Oskar)"
+  ],
+  "7": [
+   "not_on(Oskar, intake)"
+  ],
+  "11": [
+   "before(@packing, Chloe)"
+  ],
+  "13": [
+   "right_before(Chloe, Arjun)"
+  ],
+  "14": [
+   "between(Oskar, Arjun, Hana)"
+  ],
+  "16": [
+   "not_on(Oskar, packing)"
+  ]
+ },
+ "F3-054": {
+  "1": [
+   "before(@calibration, Noor)"
+  ],
+  "2": [
+   "before(Chloe, Hana)"
+  ],
+  "4": [
+   "right_before(Chloe, Elif)"
+  ],
+  "6": [
+   "before(Noor, Elif)"
+  ],
+  "7": [
+   "right_before(Chloe, Elif)"
+  ],
+  "11": [
+   "before(@intake, Tara)"
+  ],
+  "13": [
+   "between(Tara, Chloe, Hana)"
+  ],
+  "15": [
+   "not_on(Hana, calibration)"
+  ]
+ },
+ "F3-055": {
+  "0": [
+   "not_on(Rhea, calibration)"
+  ],
+  "2": [
+   "between(Lena, Hana, Rhea)"
+  ],
+  "3": [
+   "not_at(Noor, 15:00)"
+  ],
+  "5": [
+   "between(Kofi, Hana, Lena)"
+  ],
+  "8": [
+   "before(@calibration, Lena)"
+  ],
+  "9": [
+   "between(Lena, Hana, Rhea)"
+  ],
+  "14": [
+   "between(Rhea, Hana, Noor)"
+  ],
+  "15": [
+   "not_at(Noor, 13:00)"
+  ],
+  "16": [
+   "not_at(Hana, 13:00)"
+  ],
+  "18": [
+   "before(@intake, Hana)"
+  ],
+  "19": [
+   "between(Lena, Noor, Rhea)"
+  ]
+ },
+ "F3-056": {
+  "0": [
+   "not_on(Diego, calibration)"
+  ],
+  "1": [
+   "before(@intake, Oskar)"
+  ],
+  "3": [
+   "before(@intake, Oskar)"
+  ],
+  "4": [
+   "not_on(Lena, packing)"
+  ],
+  "6": [
+   "before(Diego, Oskar)"
+  ],
+  "7": [
+   "right_before(Oskar, Mateo)"
+  ],
+  "10": [
+   "on(Lena, intake)"
+  ],
+  "15": [
+   "between(Lena, Diego, Oskar)"
+  ],
+  "18": [
+   "between(Lena, Oskar, Rhea)"
+  ],
+  "19": [
+   "between(Rhea, Diego, Oskar)"
+  ]
+ },
+ "F3-057": {
+  "0": [
+   "before(@intake, Sven)"
+  ],
+  "1": [
+   "not_on(Sven, packing)"
+  ],
+  "2": [
+   "not_at(Sven, 15:00)"
+  ],
+  "3": [
+   "on(Ivo, packing)"
+  ],
+  "4": [
+   "right_before(Sven, Kofi)"
+  ],
+  "5": [
+   "between(Kofi, Arjun, Ivo)"
+  ],
+  "6": [
+   "before(@intake, Ivo)"
+  ],
+  "7": [
+   "between(Kofi, Ivo, Sven)"
+  ],
+  "12": [
+   "right_before(Diego, Ivo)"
+  ],
+  "15": [
+   "not_at(Sven, 15:00)"
+  ],
+  "16": [
+   "before(@calibration, Arjun)"
+  ]
+ },
+ "F3-058": {
+  "0": [
+   "before(@calibration, Chloe)"
+  ],
+  "2": [
+   "not_at(Elif, 07:00)"
+  ],
+  "4": [
+   "not_on(Ivo, intake)"
+  ],
+  "5": [
+   "before(Chloe, Ivo)"
+  ],
+  "6": [
+   "at(Kofi, 11:00)"
+  ],
+  "8": [
+   "before(Elif, Kofi)"
+  ],
+  "10": [
+   "right_before(Rhea, Kofi)"
+  ],
+  "11": [
+   "right_before(Elif, Rhea)"
+  ],
+  "14": [
+   "not_on(Kofi, packing)"
+  ],
+  "16": [
+   "before(Elif, Kofi)"
+  ]
+ },
+ "F3-059": {
+  "0": [
+   "between(Wen, Hana, Oskar)"
+  ],
+  "2": [
+   "before(Wen, Rhea)"
+  ],
+  "4": [
+   "not_at(Wen, 07:00)"
+  ],
+  "8": [
+   "before(Hana, Rhea)"
+  ],
+  "10": [
+   "before(@intake, Diego)"
+  ],
+  "12": [
+   "before(@calibration, Rhea)"
+  ],
+  "13": [
+   "between(Hana, Diego, Rhea)"
+  ],
+  "15": [
+   "not_at(Wen, 11:00)"
+  ],
+  "17": [
+   "between(Diego, Oskar, Rhea)"
+  ],
+  "18": [
+   "before(Wen, Rhea)"
+  ]
+ }
+}

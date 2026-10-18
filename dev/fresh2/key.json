@@ -1,0 +1,2399 @@
+{
+ "F3-000": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "07:00"
+    },
+    "Chloe": {
+     "block": "11:00"
+    },
+    "Lena": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Tara": {
+     "block": "13:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-001": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Tara": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "07:00"
+    },
+    "Hana": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Elif": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Tara": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "07:00"
+    },
+    "Hana": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Elif": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Tara": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "07:00"
+    },
+    "Hana": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Elif": {
+     "block": "15:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-002": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Elif": {
+     "block": "07:00"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Ivo": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Elif": {
+     "block": "07:00"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "15:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-003": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "13:00"
+    },
+    "Oskar": {
+     "block": "15:00"
+    },
+    "Diego": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "13:00"
+    },
+    "Oskar": {
+     "block": "15:00"
+    },
+    "Diego": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Oskar": {
+     "block": "13:00"
+    },
+    "Diego": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Oskar": {
+     "block": "13:00"
+    },
+    "Diego": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-004": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Farah's block is 13:00.",
+    "Hana begins at some point after Sven.",
+    "I'm reasonably confident Sven is later than one of Farah and Hana and earlier than the other."
+   ],
+   [
+    "Hana begins at some point after Sven.",
+    "I'm reasonably confident Sven is later than one of Farah and Hana and earlier than the other.",
+    "If memory serves, Farah is later than one of Elif and Sven and earlier than the other.",
+    "Said again for clarity: Sven gets going earlier than Elif."
+   ],
+   [
+    "Hana begins at some point after Sven.",
+    "I'm reasonably confident Sven is later than one of Farah and Hana and earlier than the other.",
+    "If memory serves, Farah is later than one of Elif and Sven and earlier than the other.",
+    "Elif begins at some point after Sven."
+   ]
+  ]
+ },
+ "F3-005": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "07:00"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Noor": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "11:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-006": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Unless I have this wrong, Lena and Sven have Arjun somewhere between them.",
+    "Unless I have this wrong, Sven's turn comes before Arjun's.",
+    "Lena's turn comes before Arjun's."
+   ],
+   [
+    "Unless I have this wrong, Lena and Sven have Arjun somewhere between them.",
+    "The intake handler's turn comes before Tara's.",
+    "Lena lands between Sven and Tara, whichever is first.",
+    "Lena's turn comes before Arjun's."
+   ],
+   [
+    "Unless I have this wrong, Lena and Sven have Arjun somewhere between them.",
+    "Lena lands between Sven and Tara, whichever is first.",
+    "Whoever handles calibration gets going earlier than Tara.",
+    "Lena's turn comes before Arjun's."
+   ],
+   [
+    "Unless I have this wrong, Lena and Sven have Arjun somewhere between them.",
+    "Lena lands between Sven and Tara, whichever is first.",
+    "Flagged twice at handover: I believe the calibration handler's turn comes before Tara's.",
+    "Lena's turn comes before Arjun's."
+   ],
+   [
+    "Unless I have this wrong, Lena and Sven have Arjun somewhere between them.",
+    "If memory serves, Ivo is later than one of Sven and Tara and earlier than the other.",
+    "Lena lands between Sven and Tara, whichever is first.",
+    "From what I recall, nothing separates Sven's block from Ivo's, which follows it.",
+    "Lena's turn comes before Arjun's."
+   ]
+  ]
+ },
+ "F3-007": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Oskar": {
+     "block": "13:00"
+    },
+    "Elif": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Ivo": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "09:00"
+    },
+    "Tara": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-008": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Wen": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "13:00"
+    },
+    "Diego": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Wen": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Kofi": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "13:00"
+    },
+    "Diego": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-009": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Hana lands between Lena and Noor, whichever is first.",
+    "I'm reasonably confident Hana gets going earlier than Noor.",
+    "Lena is on shift at 13:00."
+   ],
+   [
+    "Hana lands between Lena and Noor, whichever is first.",
+    "Lena is on shift at 13:00.",
+    "I'm reasonably confident Lena goes, and Hana is on in the adjoining block."
+   ],
+   [
+    "Lena gets going earlier than Tara.",
+    "I'm reasonably confident nothing separates Hana's block from Tara's, which follows it.",
+    "Lena is on shift at 13:00."
+   ],
+   [
+    "Lena gets going earlier than Tara.",
+    "Lena is on shift at 13:00.",
+    "Flagged twice at handover: Tara is later than one of Noor and Rhea and earlier than the other."
+   ],
+   [
+    "Lena gets going earlier than Tara.",
+    "Lena is on shift at 13:00.",
+    "From what I recall, Noor and Rhea have Tara somewhere between them."
+   ],
+   [
+    "Lena gets going earlier than Tara.",
+    "Lena is on shift at 13:00.",
+    "I'm reasonably confident Lena goes, and Hana is on in the adjoining block."
+   ],
+   [
+    "I'm reasonably confident Hana gets going earlier than Noor.",
+    "Lena is on shift at 13:00.",
+    "I'm reasonably confident Lena goes, and Hana is on in the adjoining block."
+   ],
+   [
+    "I'm reasonably confident nothing separates Hana's block from Tara's, which follows it.",
+    "Lena is on shift at 13:00.",
+    "I'm reasonably confident Lena goes, and Hana is on in the adjoining block."
+   ],
+   [
+    "Hana lands between Lena and Noor, whichever is first.",
+    "I'm reasonably confident nothing separates Hana's block from Tara's, which follows it.",
+    "Lena is on shift at 13:00.",
+    "From what I recall, the packing station holder's turn comes before Noor's."
+   ],
+   [
+    "Hana lands between Lena and Noor, whichever is first.",
+    "Lena is on shift at 13:00.",
+    "From what I recall, the packing station holder's turn comes before Noor's.",
+    "Flagged twice at handover: Tara is later than one of Noor and Rhea and earlier than the other."
+   ],
+   [
+    "Hana lands between Lena and Noor, whichever is first.",
+    "Lena is on shift at 13:00.",
+    "From what I recall, the packing station holder's turn comes before Noor's.",
+    "From what I recall, Noor and Rhea have Tara somewhere between them."
+   ],
+   [
+    "Lena gets going earlier than Tara.",
+    "Lena is on shift at 13:00.",
+    "From what I recall, the packing station holder's turn comes before Noor's.",
+    "Rhea is not handling packing."
+   ]
+  ]
+ },
+ "F3-010": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Ivo's turn comes before Oskar's.",
+    "Diego is not working 15:00.",
+    "Flagged twice at handover: Farah lands between Ivo and Tara, whichever is first.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Tara is later than one of Diego and Ivo and earlier than the other."
+   ],
+   [
+    "Ivo's turn comes before Oskar's.",
+    "Diego is not working 15:00.",
+    "Flagged twice at handover: Farah lands between Ivo and Tara, whichever is first.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "The intake station holder's turn comes before Diego's."
+   ],
+   [
+    "Ivo's turn comes before Oskar's.",
+    "Diego is not working 15:00.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Farah is later than one of Ivo and Tara and earlier than the other.",
+    "Tara is later than one of Diego and Ivo and earlier than the other."
+   ],
+   [
+    "Ivo's turn comes before Oskar's.",
+    "Diego is not working 15:00.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Farah is later than one of Ivo and Tara and earlier than the other.",
+    "The intake station holder's turn comes before Diego's."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "Flagged twice at handover: Farah lands between Ivo and Tara, whichever is first.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "I'm reasonably confident Ivo is off at 15:00.",
+    "Tara is later than one of Diego and Ivo and earlier than the other."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "Flagged twice at handover: Farah lands between Ivo and Tara, whichever is first.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "I'm reasonably confident Ivo is off at 15:00.",
+    "The intake station holder's turn comes before Diego's."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "Flagged twice at handover: Farah lands between Ivo and Tara, whichever is first.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Tara is later than one of Diego and Ivo and earlier than the other.",
+    "The intake station holder's turn comes before Diego's."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Farah is later than one of Ivo and Tara and earlier than the other.",
+    "I'm reasonably confident Ivo is off at 15:00.",
+    "Tara is later than one of Diego and Ivo and earlier than the other."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Farah is later than one of Ivo and Tara and earlier than the other.",
+    "I'm reasonably confident Ivo is off at 15:00.",
+    "The intake station holder's turn comes before Diego's."
+   ],
+   [
+    "Diego is not working 15:00.",
+    "I believe Oskar begins exactly when Tara ends.",
+    "Farah is later than one of Ivo and Tara and earlier than the other.",
+    "Tara is later than one of Diego and Ivo and earlier than the other.",
+    "The intake station holder's turn comes before Diego's."
+   ]
+  ]
+ },
+ "F3-011": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Hana": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Kofi": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Tara": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "15:00"
+    }
+   },
+   {
+    "Hana": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Tara": {
+     "block": "07:00"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "15:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-012": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Mateo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "15:00"
+    },
+    "Hana": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "13:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-013": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Someone besides Sven handles calibration.",
+    "From what I recall, someone besides Hana handles calibration.",
+    "Someone besides Ivo handles calibration."
+   ]
+  ]
+ },
+ "F3-014": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Elif's turn comes before Oskar's.",
+    "If memory serves, Tara begins exactly when Elif ends.",
+    "Unless I have this wrong, Tara's block is 15:00."
+   ],
+   [
+    "I believe Lena is later than one of Elif and Rhea and earlier than the other.",
+    "If memory serves, Tara begins exactly when Elif ends.",
+    "Unless I have this wrong, Rhea is later than one of Lena and Tara and earlier than the other."
+   ],
+   [
+    "If memory serves, Tara begins exactly when Elif ends.",
+    "There is no 11:00 for Oskar.",
+    "Rhea lands between Lena and Oskar, whichever is first.",
+    "Unless I have this wrong, Rhea is later than one of Lena and Tara and earlier than the other.",
+    "Unless I have this wrong, Tara's block is 15:00."
+   ]
+  ]
+ },
+ "F3-015": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Farah": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "07:00"
+    },
+    "Kofi": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "09:00"
+    }
+   },
+   {
+    "Farah": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "07:00"
+    },
+    "Kofi": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "09:00"
+    }
+   },
+   {
+    "Farah": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "07:00"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "09:00"
+    }
+   },
+   {
+    "Farah": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "07:00"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "09:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-016": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Ivo": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "11:00"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Kofi": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Ivo": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Oskar": {
+     "block": "11:00"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Kofi": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-017": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Farah is later than one of Ivo and Rhea and earlier than the other.",
+    "I'm reasonably confident Farah's turn comes before Rhea's.",
+    "I'm reasonably confident Farah gets going earlier than Ivo."
+   ],
+   [
+    "Farah and Lena have Rhea somewhere between them.",
+    "I'm reasonably confident Farah's turn comes before Rhea's.",
+    "Farah begins at some point after the packing operator.",
+    "I'm reasonably confident Farah gets going earlier than Ivo."
+   ],
+   [
+    "Said again for clarity: Rhea is later than one of Farah and Lena and earlier than the other.",
+    "I'm reasonably confident Farah's turn comes before Rhea's.",
+    "Farah begins at some point after the packing operator.",
+    "I'm reasonably confident Farah gets going earlier than Ivo."
+   ],
+   [
+    "Farah is later than one of Hana and Lena and earlier than the other.",
+    "I'm reasonably confident Farah and Hana have Ivo somewhere between them.",
+    "Farah and Lena have Rhea somewhere between them.",
+    "I'm reasonably confident Farah's turn comes before Rhea's.",
+    "I'm reasonably confident Farah gets going earlier than Ivo."
+   ],
+   [
+    "Farah is later than one of Hana and Lena and earlier than the other.",
+    "I'm reasonably confident Farah and Hana have Ivo somewhere between them.",
+    "Said again for clarity: Rhea is later than one of Farah and Lena and earlier than the other.",
+    "I'm reasonably confident Farah's turn comes before Rhea's.",
+    "I'm reasonably confident Farah gets going earlier than Ivo."
+   ]
+  ]
+ },
+ "F3-018": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Diego": {
+     "block": "15:00"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "09:00"
+    }
+   },
+   {
+    "Noor": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Diego": {
+     "block": "15:00"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "09:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-019": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Wen lands between Ivo and Noor, whichever is first.",
+    "Lena lands between Noor and Wen, whichever is first.",
+    "Lena begins exactly when Ivo ends."
+   ],
+   [
+    "I'm reasonably confident Ivo and Tara have Noor somewhere between them.",
+    "Wen lands between Ivo and Noor, whichever is first.",
+    "Wen is off at 11:00.",
+    "Lena begins exactly when Ivo ends."
+   ]
+  ]
+ },
+ "F3-020": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Kofi": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Diego": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Chloe": {
+     "block": "11:00"
+    },
+    "Noor": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "13:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-021": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Oskar": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Noor": {
+     "block": "11:00"
+    }
+   },
+   {
+    "Oskar": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Noor": {
+     "block": "11:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-022": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "Unless I have this wrong, Arjun is on shift at 07:00.",
+    "I believe Ivo's block is 09:00."
+   ],
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "Diego begins exactly when Chloe ends.",
+    "I'm reasonably confident Diego is later than one of Chloe and Oskar and earlier than the other.",
+    "I believe Ivo's block is 09:00."
+   ],
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "Diego begins exactly when Chloe ends.",
+    "Oskar is on shift at 15:00.",
+    "I believe Ivo's block is 09:00."
+   ],
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "Diego begins exactly when Chloe ends.",
+    "I believe Ivo's block is 09:00.",
+    "Flagged twice at handover: I'm reasonably confident Diego lands between Chloe and Oskar, whichever is first."
+   ],
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "I'm reasonably confident Diego is later than one of Chloe and Oskar and earlier than the other.",
+    "Oskar is on shift at 15:00.",
+    "I believe Ivo's block is 09:00."
+   ],
+   [
+    "Arjun and Ivo have Chloe somewhere between them.",
+    "Oskar is on shift at 15:00.",
+    "I believe Ivo's block is 09:00.",
+    "Flagged twice at handover: I'm reasonably confident Diego lands between Chloe and Oskar, whichever is first."
+   ]
+  ]
+ },
+ "F3-023": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "The calibration operator gets going earlier than Kofi.",
+    "Wen begins at some point after Kofi.",
+    "Tara and Wen have Hana somewhere between them.",
+    "Tara begins at some point after Kofi.",
+    "Said again for clarity: Lena is later than one of Hana and Wen and earlier than the other."
+   ],
+   [
+    "The calibration operator gets going earlier than Kofi.",
+    "Wen begins at some point after Kofi.",
+    "Tara and Wen have Hana somewhere between them.",
+    "Tara begins at some point after Kofi.",
+    "Lena lands between Hana and Wen, whichever is first."
+   ],
+   [
+    "Wen begins at some point after Kofi.",
+    "Tara and Wen have Hana somewhere between them.",
+    "Tara begins at some point after Kofi.",
+    "Hana and Lena have Kofi somewhere between them.",
+    "Said again for clarity: Lena is later than one of Hana and Wen and earlier than the other."
+   ],
+   [
+    "Wen begins at some point after Kofi.",
+    "Tara and Wen have Hana somewhere between them.",
+    "Tara begins at some point after Kofi.",
+    "Hana and Lena have Kofi somewhere between them.",
+    "Lena lands between Hana and Wen, whichever is first."
+   ]
+  ]
+ },
+ "F3-024": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Packing isn't Mateo's job.",
+    "Hana handles calibration.",
+    "From what I recall, intake belongs to Diego on this rota."
+   ],
+   [
+    "If memory serves, Diego goes, and Arjun is on in the adjoining block.",
+    "Hana handles calibration.",
+    "Diego and Hana have Arjun somewhere between them.",
+    "The calibration handler's turn comes before Diego's."
+   ]
+  ]
+ },
+ "F3-025": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Ivo": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "09:00"
+    },
+    "Lena": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "13:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Ivo": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "09:00"
+    },
+    "Lena": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "13:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Ivo": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "09:00"
+    },
+    "Lena": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "13:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Ivo": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "09:00"
+    },
+    "Lena": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "13:00",
+     "station": "calibration"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-026": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Kofi": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "11:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "11:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Wen": {
+     "block": "11:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Kofi": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Wen": {
+     "block": "11:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "13:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-027": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "15:00"
+    },
+    "Tara": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Wen": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Diego": {
+     "block": "13:00"
+    },
+    "Rhea": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-028": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Mateo": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Noor": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Mateo": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Noor": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Farah": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "13:00"
+    }
+   },
+   {
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "09:00"
+    }
+   },
+   {
+    "Mateo": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Noor": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Arjun": {
+     "block": "11:00"
+    },
+    "Farah": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "09:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-029": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Tara": {
+     "block": "09:00"
+    },
+    "Elif": {
+     "block": "07:00"
+    },
+    "Oskar": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Diego": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Tara": {
+     "block": "09:00"
+    },
+    "Elif": {
+     "block": "07:00"
+    },
+    "Oskar": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Diego": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-030": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Oskar": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Ivo": {
+     "block": "15:00"
+    },
+    "Mateo": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Elif": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "11:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-031": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Elif": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Tara": {
+     "block": "09:00"
+    },
+    "Noor": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "13:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-032": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Sven": {
+     "block": "11:00"
+    },
+    "Arjun": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "13:00"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Sven": {
+     "block": "15:00"
+    },
+    "Arjun": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Kofi": {
+     "block": "13:00"
+    },
+    "Hana": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Ivo": {
+     "block": "09:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-033": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Said again for clarity: Diego and Ivo have Lena somewhere between them.",
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "Unless I have this wrong, Lena is not working 13:00."
+   ],
+   [
+    "Said again for clarity: Diego and Ivo have Lena somewhere between them.",
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "From what I recall, Noor begins at some point after the calibration operator."
+   ],
+   [
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Lena lands between Diego and Ivo, whichever is first.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "Unless I have this wrong, Lena is not working 13:00."
+   ],
+   [
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Lena lands between Diego and Ivo, whichever is first.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "From what I recall, Noor begins at some point after the calibration operator."
+   ],
+   [
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Ivo's turn comes before Noor's.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "Unless I have this wrong, Lena is not working 13:00."
+   ],
+   [
+    "Diego begins exactly when Lena ends.",
+    "Noor is off at 15:00.",
+    "Ivo's turn comes before Noor's.",
+    "Chloe lands between Diego and Ivo, whichever is first.",
+    "From what I recall, Noor begins at some point after the calibration operator."
+   ]
+  ]
+ },
+ "F3-034": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "09:00"
+    },
+    "Farah": {
+     "block": "13:00"
+    },
+    "Arjun": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   },
+   {
+    "Diego": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Rhea": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Sven": {
+     "block": "13:00"
+    },
+    "Farah": {
+     "block": "11:00"
+    },
+    "Arjun": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-035": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Mateo": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Lena": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Hana": {
+     "block": "13:00"
+    },
+    "Rhea": {
+     "block": "07:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-036": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "07:00"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "13:00"
+    },
+    "Wen": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "07:00"
+    },
+    "Tara": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "13:00"
+    },
+    "Wen": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-037": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Elif": {
+     "block": "07:00"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "15:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Elif": {
+     "block": "07:00"
+    },
+    "Wen": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "15:00"
+    },
+    "Diego": {
+     "block": "09:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-038": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Said again for clarity: Unless I have this wrong, Diego and Sven have Mateo somewhere between them.",
+    "I believe Mateo is later than one of Chloe and Oskar and earlier than the other.",
+    "If memory serves, 11:00 goes to Diego."
+   ],
+   [
+    "Said again for clarity: Unless I have this wrong, Diego and Sven have Mateo somewhere between them.",
+    "Diego and Oskar have Sven somewhere between them.",
+    "If memory serves, 11:00 goes to Diego."
+   ],
+   [
+    "Mateo lands between Diego and Sven, whichever is first.",
+    "I believe Mateo is later than one of Chloe and Oskar and earlier than the other.",
+    "If memory serves, 11:00 goes to Diego."
+   ],
+   [
+    "Mateo lands between Diego and Sven, whichever is first.",
+    "Diego and Oskar have Sven somewhere between them.",
+    "If memory serves, 11:00 goes to Diego."
+   ],
+   [
+    "Unless I have this wrong, there is no 07:00 for Oskar.",
+    "Chloe begins at some point after Diego.",
+    "Diego and Oskar have Sven somewhere between them.",
+    "If memory serves, 11:00 goes to Diego."
+   ]
+  ]
+ },
+ "F3-039": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Ivo": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "09:00"
+    },
+    "Arjun": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Diego": {
+     "block": "15:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-040": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Elif": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "09:00"
+    },
+    "Chloe": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "07:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-041": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Unless I have this wrong, Lena is not working 15:00.",
+    "Chloe lands between Elif and Kofi, whichever is first.",
+    "Hana begins exactly when Kofi ends.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Unless I have this wrong, Lena is not working 15:00.",
+    "Hana begins exactly when Kofi ends.",
+    "Said again for clarity: I believe Chloe is later than one of Elif and Kofi and earlier than the other.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Unless I have this wrong, Lena is not working 15:00.",
+    "Hana begins exactly when Kofi ends.",
+    "From what I recall, Elif and Hana have Chloe somewhere between them.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Chloe lands between Elif and Kofi, whichever is first.",
+    "The intake station holder gets going earlier than Elif.",
+    "Hana begins exactly when Kofi ends.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Chloe lands between Elif and Kofi, whichever is first.",
+    "Unless I have this wrong, Kofi and Lena have Chloe somewhere between them.",
+    "Hana begins exactly when Kofi ends.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Chloe lands between Elif and Kofi, whichever is first.",
+    "Hana begins exactly when Kofi ends.",
+    "13:00 goes to Hana.",
+    "Hana lands between Elif and Kofi, whichever is first."
+   ],
+   [
+    "The intake station holder gets going earlier than Elif.",
+    "Hana begins exactly when Kofi ends.",
+    "Said again for clarity: I believe Chloe is later than one of Elif and Kofi and earlier than the other.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "The intake station holder gets going earlier than Elif.",
+    "Hana begins exactly when Kofi ends.",
+    "From what I recall, Elif and Hana have Chloe somewhere between them.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "The intake station holder gets going earlier than Elif.",
+    "From what I recall, Elif and Hana have Chloe somewhere between them.",
+    "13:00 goes to Hana.",
+    "Whoever handles packing gets going earlier than Lena."
+   ],
+   [
+    "Unless I have this wrong, Kofi and Lena have Chloe somewhere between them.",
+    "Hana begins exactly when Kofi ends.",
+    "Said again for clarity: I believe Chloe is later than one of Elif and Kofi and earlier than the other.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Unless I have this wrong, Kofi and Lena have Chloe somewhere between them.",
+    "Hana begins exactly when Kofi ends.",
+    "From what I recall, Elif and Hana have Chloe somewhere between them.",
+    "13:00 goes to Hana."
+   ],
+   [
+    "Unless I have this wrong, Kofi and Lena have Chloe somewhere between them.",
+    "Hana begins exactly when Kofi ends.",
+    "13:00 goes to Hana.",
+    "Whoever handles packing gets going earlier than Lena."
+   ],
+   [
+    "Hana begins exactly when Kofi ends.",
+    "Said again for clarity: I believe Chloe is later than one of Elif and Kofi and earlier than the other.",
+    "13:00 goes to Hana.",
+    "Hana lands between Elif and Kofi, whichever is first."
+   ],
+   [
+    "Hana begins exactly when Kofi ends.",
+    "From what I recall, Elif and Hana have Chloe somewhere between them.",
+    "13:00 goes to Hana.",
+    "Hana lands between Elif and Kofi, whichever is first."
+   ]
+  ]
+ },
+ "F3-042": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Sven is later than one of Farah and Tara and earlier than the other.",
+    "Wen lands between Sven and Tara, whichever is first.",
+    "Unless I have this wrong, nothing separates Farah's block from Wen's, which follows it."
+   ]
+  ]
+ },
+ "F3-043": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "Mateo is later than one of Lena and Tara and earlier than the other.",
+    "I'm reasonably confident Tara lands between Diego and Lena, whichever is first.",
+    "Once more: Mateo begins exactly when Diego ends."
+   ],
+   [
+    "Mateo is later than one of Lena and Tara and earlier than the other.",
+    "I'm reasonably confident Tara lands between Diego and Lena, whichever is first.",
+    "From what I recall, Diego goes, and Mateo is on in the adjoining block."
+   ]
+  ]
+ },
+ "F3-044": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "11:00"
+    },
+    "Diego": {
+     "block": "07:00"
+    },
+    "Hana": {
+     "block": "09:00",
+     "station": "intake"
+    },
+    "Sven": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Elif": {
+     "block": "15:00",
+     "station": "calibration"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-045": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Oskar": {
+     "block": "11:00"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Farah": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Elif": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Lena": {
+     "block": "07:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-046": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "11:00"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Lena": {
+     "block": "07:00"
+    },
+    "Elif": {
+     "block": "13:00",
+     "station": "calibration"
+    },
+    "Oskar": {
+     "block": "09:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-047": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Tara": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Elif": {
+     "block": "11:00"
+    },
+    "Kofi": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Arjun": {
+     "block": "15:00"
+    },
+    "Chloe": {
+     "block": "09:00",
+     "station": "calibration"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-048": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "I believe Rhea's turn comes before Wen's.",
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them."
+   ],
+   [
+    "Elif and Wen have Ivo somewhere between them.",
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Hana is later than one of Elif and Ivo and earlier than the other."
+   ],
+   [
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "Hana and Wen have Rhea somewhere between them.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Hana is later than one of Elif and Ivo and earlier than the other."
+   ],
+   [
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Hana is later than one of Elif and Ivo and earlier than the other.",
+    "Flagged twice at handover: Unless I have this wrong, Rhea is later than one of Hana and Wen and earlier than the other."
+   ],
+   [
+    "Elif and Wen have Ivo somewhere between them.",
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Unless I have this wrong, the packing station holder gets going earlier than Rhea.",
+    "Hana handles packing."
+   ],
+   [
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "Hana and Wen have Rhea somewhere between them.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Unless I have this wrong, the packing station holder gets going earlier than Rhea.",
+    "Hana handles packing."
+   ],
+   [
+    "Unless I have this wrong, 13:00 goes to Rhea.",
+    "I'm reasonably confident Hana and Ivo have Rhea somewhere between them.",
+    "Unless I have this wrong, the packing station holder gets going earlier than Rhea.",
+    "Hana handles packing.",
+    "Flagged twice at handover: Unless I have this wrong, Rhea is later than one of Hana and Wen and earlier than the other."
+   ]
+  ]
+ },
+ "F3-049": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Hana": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "09:00"
+    },
+    "Mateo": {
+     "block": "11:00",
+     "station": "calibration"
+    }
+   },
+   {
+    "Chloe": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Farah": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Hana": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "09:00"
+    },
+    "Mateo": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-050": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Oskar": {
+     "block": "07:00"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Elif": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Mateo": {
+     "block": "11:00",
+     "station": "intake"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-051": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "From what I recall, 11:00 goes to Elif.",
+    "Mateo gets going earlier than Wen.",
+    "Sven's turn comes before Mateo's.",
+    "Elif's turn comes before Sven's."
+   ],
+   [
+    "From what I recall, 11:00 goes to Elif.",
+    "Mateo gets going earlier than Wen.",
+    "Sven's turn comes before Mateo's.",
+    "Once more: Elif gets going earlier than Sven."
+   ],
+   [
+    "From what I recall, 11:00 goes to Elif.",
+    "Mateo gets going earlier than Wen.",
+    "Wen goes, and Chloe is on in the adjoining block.",
+    "Elif's turn comes before Sven's."
+   ],
+   [
+    "From what I recall, 11:00 goes to Elif.",
+    "Mateo gets going earlier than Wen.",
+    "Wen goes, and Chloe is on in the adjoining block.",
+    "Once more: Elif gets going earlier than Sven."
+   ],
+   [
+    "Unless I have this wrong, Chloe and Sven have Elif somewhere between them.",
+    "Mateo gets going earlier than Wen.",
+    "Sven's turn comes before Mateo's.",
+    "Wen goes, and Chloe is on in the adjoining block.",
+    "Elif's turn comes before Sven's."
+   ],
+   [
+    "Unless I have this wrong, Chloe and Sven have Elif somewhere between them.",
+    "Mateo gets going earlier than Wen.",
+    "Sven's turn comes before Mateo's.",
+    "Wen goes, and Chloe is on in the adjoining block.",
+    "Once more: Elif gets going earlier than Sven."
+   ]
+  ]
+ },
+ "F3-052": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "From what I recall, whoever handles packing gets going earlier than Tara.",
+    "Oskar is the calibration operator.",
+    "Chloe is not handling packing."
+   ]
+  ]
+ },
+ "F3-053": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Noor": {
+     "block": "13:00",
+     "station": "intake"
+    },
+    "Arjun": {
+     "block": "07:00",
+     "station": "packing"
+    },
+    "Ivo": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Hana": {
+     "block": "09:00"
+    },
+    "Tara": {
+     "block": "15:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-054": {
+  "case": "inconsistent",
+  "assignments": [],
+  "conflict_line_sets": [
+   [
+    "From what I recall, Rhea is later than one of Lena and Sven and earlier than the other.",
+    "There is no 11:00 for Rhea.",
+    "Kofi and Rhea have Sven somewhere between them.",
+    "I believe Mateo begins exactly when Lena ends."
+   ],
+   [
+    "From what I recall, Rhea is later than one of Lena and Sven and earlier than the other.",
+    "There is no 11:00 for Rhea.",
+    "13:00 goes to Sven.",
+    "I believe Mateo begins exactly when Lena ends."
+   ],
+   [
+    "From what I recall, Rhea is later than one of Lena and Sven and earlier than the other.",
+    "Kofi and Rhea have Sven somewhere between them.",
+    "Flagged twice at handover: From what I recall, Rhea is off at 11:00.",
+    "I believe Mateo begins exactly when Lena ends."
+   ],
+   [
+    "From what I recall, Rhea is later than one of Lena and Sven and earlier than the other.",
+    "13:00 goes to Sven.",
+    "Flagged twice at handover: From what I recall, Rhea is off at 11:00.",
+    "I believe Mateo begins exactly when Lena ends."
+   ]
+  ]
+ },
+ "F3-055": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "11:00"
+    },
+    "Wen": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Diego": {
+     "block": "09:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "15:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "13:00"
+    },
+    "Wen": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "07:00",
+     "station": "intake"
+    }
+   },
+   {
+    "Diego": {
+     "block": "11:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "09:00"
+    },
+    "Wen": {
+     "block": "13:00"
+    },
+    "Tara": {
+     "block": "15:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-056": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Ivo": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Diego": {
+     "block": "11:00"
+    },
+    "Tara": {
+     "block": "07:00"
+    },
+    "Chloe": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Rhea": {
+     "block": "13:00",
+     "station": "calibration"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-057": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Elif": {
+     "block": "09:00"
+    },
+    "Hana": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Lena": {
+     "block": "07:00",
+     "station": "intake"
+    },
+    "Mateo": {
+     "block": "13:00"
+    },
+    "Chloe": {
+     "block": "11:00",
+     "station": "packing"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-058": {
+  "case": "unique",
+  "assignments": [
+   {
+    "Farah": {
+     "block": "13:00"
+    },
+    "Diego": {
+     "block": "09:00"
+    },
+    "Mateo": {
+     "block": "11:00",
+     "station": "packing"
+    },
+    "Sven": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Elif": {
+     "block": "07:00",
+     "station": "calibration"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ },
+ "F3-059": {
+  "case": "ambiguous",
+  "assignments": [
+   {
+    "Diego": {
+     "block": "09:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "07:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "13:00"
+    },
+    "Noor": {
+     "block": "15:00",
+     "station": "intake"
+    },
+    "Farah": {
+     "block": "11:00"
+    }
+   },
+   {
+    "Diego": {
+     "block": "13:00",
+     "station": "packing"
+    },
+    "Mateo": {
+     "block": "15:00",
+     "station": "calibration"
+    },
+    "Rhea": {
+     "block": "09:00"
+    },
+    "Noor": {
+     "block": "11:00",
+     "station": "intake"
+    },
+    "Farah": {
+     "block": "07:00"
+    }
+   }
+  ],
+  "conflict_line_sets": []
+ }
+}
